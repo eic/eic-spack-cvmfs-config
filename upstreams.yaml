@@ -1,0 +1,4 @@
+upstreams:
+  eic-spack-cvmfs-instance-1:
+    install_tree: /cvmfs/eic.opensciencegrid.org/packages
+
