@@ -1,0 +1,4 @@
+packages:
+  all:
+    compiler: [gcc@4.8.5]
+
