@@ -10,6 +10,8 @@ config:
 
   install_path_scheme: "${PACKAGE}/${VERSION}/${ARCHITECTURE}-${COMPILERNAME}-${COMPILERVER}-${HASH}"
 
+  source_cache: ~/.spack/cache
+
   # Locations where different types of modules should be installed.
   module_roots:
     tcl:    $spack/share/spack/modules
