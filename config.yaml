@@ -14,5 +14,5 @@ config:
 
   # Locations where different types of modules should be installed.
   module_roots:
-    tcl:    $spack/share/spack/modules
-    lmod:   $spack/share/spack/lmod
+    tcl:    ~/.spack/modules
+    lmod:   ~/.spack/lmod
