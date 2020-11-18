@@ -1,10 +1,10 @@
 compilers:
 - compiler:
     paths:
-      cc: /bin/gcc-10
-      cxx: /bin/g++-10
-      f77: /bin/gfortran-10
-      fc: /bin/gfortran-10
+      cc: /usr/bin/gcc-10
+      cxx: /usr/bin/g++-10
+      f77: /usr/bin/gfortran-10
+      fc: /usr/bin/gfortran-10
     operating_system: ubuntu20.10
     target: x86_64
     modules: []
@@ -14,10 +14,10 @@ compilers:
     spec: gcc@10.2.0
 - compiler:
     paths:
-      cc: /bin/gcc-9
-      cxx: /bin/g++-9
-      f77: /bin/gfortran-9
-      fc: /bin/gfortran-9
+      cc: /usr/bin/gcc-9
+      cxx: /usr/bin/g++-9
+      f77: /usr/bin/gfortran-9
+      fc: /usr/bin/gfortran-9
     operating_system: ubuntu20.04
     target: x86_64
     modules: []
@@ -28,10 +28,10 @@ compilers:
 - compiler:
     spec: gcc@4.8.5
     paths:
-      cc: /bin/gcc
-      cxx: /bin/g++
-      f77: /bin/gfortran
-      fc: /bin/gfortran
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
     flags: {}
     operating_system: centos7
     target: x86_64
@@ -41,10 +41,10 @@ compilers:
 - compiler:
     spec: gcc@8.3.1
     paths:
-      cc: /bin/gcc
-      cxx: /bin/g++
-      f77: /bin/gfortran
-      fc: /bin/gfortran
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: /usr/bin/gfortran
+      fc: /usr/bin/gfortran
     flags: {}
     operating_system: centos8
     target: x86_64
