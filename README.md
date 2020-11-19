@@ -1,6 +1,6 @@
 # EIC Spack Software Stack Configuration
 
-This repository contains configuration files in $SPACK_ROOT/etc/spack for the EIC Spack repository on cvmfs. It is checked out at `/cvmfs/eic.opensciencegrid.org/packages/spack/rollout/etc/spack`.
+This repository contains configuration files in $SPACK_ROOT/etc/spack for the EIC Spack repository on cvmfs. It is checked out at `/cvmfs/eic.opensciencegrid.org/packages/spack/current/etc/spack`.
 
 The configuration performs a few user-oriented functions:
 - it sets the repository on `/cvmfs/eic.opensciencegrid.org` as an upstream resource,
