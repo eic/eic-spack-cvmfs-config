@@ -1,18 +1,12 @@
-# -------------------------------------------------------------------------
-# This the default spack configuration  for "unified" layout, usable
-# by spack, and ups/upd.
-#
-# It should be installed in the per-spack area:
-#   $SPACK_ROOT/etc/spack/config.yaml
-# -------------------------------------------------------------------------
 config:
-  install_tree: ~/.spack/
+  install_tree: 
 
-  install_path_scheme: "${PACKAGE}/${VERSION}/${ARCHITECTURE}-${COMPILERNAME}-${COMPILERVER}-${HASH}"
-
+    root: ~/.spack/
+    projections:
+      all: ${PACKAGE}/${VERSION}/${ARCHITECTURE}-${COMPILERNAME}-${COMPILERVER}-${HASH}
   source_cache: ~/.spack/cache
 
   # Locations where different types of modules should be installed.
   module_roots:
-    tcl:    ~/.spack/modules
-    lmod:   ~/.spack/lmod
+    tcl: ~/.spack/modules
+    lmod: ~/.spack/lmod
