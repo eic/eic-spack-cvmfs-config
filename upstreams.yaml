@@ -2,5 +2,5 @@ upstreams:
   eic-spack-cvmfs-instance-1:
     install_tree: /cvmfs/eic.opensciencegrid.org/packages
     modules:
-      tcl: /cvmfs/eic.opensciencegrid.org/packages/spack/current/share/spack/modules
+      tcl: /cvmfs/eic.opensciencegrid.org/packages/spack/modules
 
